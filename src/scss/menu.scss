@@ -1,0 +1,27 @@
+.menu {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  height: $menuHeight;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  a {
+    border-radius: 2px;
+    font-size: $unit * 2;
+    letter-spacing: $unit * 0.24;
+    padding: $unit $unit*2;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    background-color: #eee;
+  }
+
+  a.active {
+    font-weight: bold;
+  }
+}
