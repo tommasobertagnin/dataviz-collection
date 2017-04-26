@@ -5,11 +5,11 @@ const Menu = ({ children }) => (
   <div className="menu">
     <ul>
       <NavLink exact to="/" activeClassName="active">
-        page A
+        BAR CHART
       </NavLink>
       {'  '}
-      <NavLink to="/page-b" activeClassName="active">
-        page B
+      <NavLink to="/scatterplot" activeClassName="active">
+        SCATTERPLOT
       </NavLink>
     </ul>
   </div>
